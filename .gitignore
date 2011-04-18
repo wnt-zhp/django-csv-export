@@ -1,19 +1,13 @@
-*pyc
-bin/
-build/
-include/
-lib/
-src/
-share/
-.Python
-local_settings.py
-.DS_Store
-*.sql
-*.json
-*.bz2
-*.zip
-.oohembed_cache
-media/tracks/
-media/entries/
-alteredzones/search/data/
-misc/
+# Pliki skompilowane
+*.pyc
+*.pyo
+#Katalog pycharma
+.idea/**
+#Pliki backup
+.*~
+#Pliki svn
+**.svn**
+#Konfiguracja django i plik bazy sqlite
+settings.py
+rejestracja-test.sqlite
+south.log
